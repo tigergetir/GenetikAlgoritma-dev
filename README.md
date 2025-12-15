@@ -55,30 +55,19 @@ pip install numpy matplotlib
 Terminal veya komut satırında proje dizinine gelerek aşağıdaki komutu çalıştırın:
 jupyter notebook yapay_zeka_ilk_ödev.ipynb
 
-Çıktılar ve Görselleştirme
+## 📊 Çıktılar ve Görselleştirme
+
 Kod çalıştırıldığında optimizasyon sürecini analiz etmek için şu çıktılar üretilir:
 
-Metin Çıktıları:
+1.  **Metin Çıktıları:**
+    * En iyi çözümün bulunduğu nesil numarası.
+    * Optimize edilmiş $x_1$ ve $x_2$ değerleri.
+    * Elde edilen maksimum skor (fitness değeri).
+    * Kısıtların sağlanıp sağlanmadığına dair doğrulama (Feasibility Check).
 
-En iyi çözümün bulunduğu nesil numarası.
-
-Optimize edilmiş x 
-1
-​
-  ve x 
-2
-​
-  değerleri.
-
-Elde edilen maksimum skor (fitness değeri).
-
-Kısıtların sağlanıp sağlanmadığına dair doğrulama (Feasibility Check).
-
-Grafiksel Analizler:
-
-Amaç Fonksiyonu ve Uygun Bölge: Fonksiyonun kontur haritası üzerinde kısıt sınırları (kırmızı çizgiler) ve bulunan en iyi çözüm (beyaz nokta) gösterilir.
-
-Skor Evrimi: Nesiller boyunca popülasyonun en iyi skorunun nasıl arttığını gösteren çizgi grafiği. Bu grafik algoritmanın yakınsama başarısını gösterir.
+2.  **Grafiksel Analizler:**
+    * **Amaç Fonksiyonu ve Uygun Bölge:** Fonksiyonun kontur haritası üzerinde kısıt sınırları (kırmızı çizgiler) ve bulunan en iyi çözüm (beyaz nokta) gösterilir.
+    * **Skor Evrimi:** Nesiller boyunca popülasyonun en iyi skorunun nasıl arttığını gösteren çizgi grafiği. Bu grafik algoritmanın yakınsama başarısını gösterir.
 
 📂 Dosya Yapısı
 yapay_zeka_ilk_ödev.ipynb: Projenin kaynak kodlarını, açıklamalarını ve grafikleri içeren Jupyter Notebook dosyası.
